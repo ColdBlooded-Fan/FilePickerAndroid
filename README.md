@@ -1,5 +1,5 @@
 
-# react-native-files-picker-android
+# react-native-files-picker-android-fan
 
 ## Getting started
 
