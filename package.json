@@ -1,5 +1,5 @@
 {
-  "name": "react-native-file-picker",
+  "name": "react-native-files-pickerandroid",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,7 @@
   "keywords": [
     "react-native"
   ],
-  "author": "",
+  "author": "fanjingwei",
   "license": "",
   "peerDependencies": {
     "react-native": "^0.41.2",

@@ -34,7 +34,6 @@ import android.content.ComponentName;
 import android.app.Activity;
 
 import org.json.JSONObject;
-
 public class RNFilePickerModule extends ReactContextBaseJavaModule {
 
   private final ReactApplicationContext reactContext;
