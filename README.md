@@ -3,7 +3,7 @@
 
 ## Getting started
 
-`$ npm react-native-files-picker-android-baozi --save`
+`$ npm install react-native-files-picker-android-baozi --save`
 
 ### Mostly automatic installation
 
