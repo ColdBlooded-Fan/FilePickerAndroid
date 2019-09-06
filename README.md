@@ -3,11 +3,11 @@
 
 ## Getting started
 
-`$ npm install react-native-files-picker-android --save`
+`$ npm install react-native-files-picker-android-fan --save`
 
 ### Mostly automatic installation
 
-`$ react-native link react-native-files-picker-android`
+`$ react-native link react-native-files-picker-android-fan`
 
 
 
@@ -26,20 +26,14 @@
       compile project(':react-native-files-picker-android')
   	```
 
-#### Windows
-[Read it! :D](https://github.com/ReactWindows/react-native)
 
-1. In Visual Studio add the `RNFilePicker.sln` in `node_modules/react-native-files-picker-android/windows/RNFilePicker.sln` folder to their solution, reference from their app.
-2. Open up your `MainPage.cs` app
-  - Add `using File.Picker.RNFilePicker;` to the usings at the top of the file
-  - Add `new RNFilePickerPackage()` to the `List<IReactPackage>` returned by the `Packages` method
 
 
 ## Usage
 ```javascript
-import RNFilePicker from 'react-native-files-picker-android';
-RNFilePicker.openFileSelec((name, uriStr, fileType)=>{
-console.log('fileName :' + name)
+import RNFilePicker from 'react-native-files-picker-android-fan';
+RNFilePicker.openFileSelec((fileName, fileUri, fileType)=> {
+// fileName(文件名) fileUri(文件uri) fileType(文件格式)
 ...
 },()=>{
 console.log('获取文件失败')
